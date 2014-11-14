@@ -3,6 +3,10 @@ Meteor Chatroom
 
 **Meteor Chatroom** is simple online chatroom developed with Meteor.
 
+Click on the link below to begin.
+
+[Begin chatting.](http://elaine.meteor.com/)
+
 Technologies Used
 ----
 
