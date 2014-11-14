@@ -36,6 +36,7 @@ if (Meteor.isClient) {
       evt.preventDefault();
       var message = $('#message').val();
       sendChat(message);
+      $('#message').val('');
     });
   });
 }
