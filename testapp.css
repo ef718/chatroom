@@ -1,0 +1,11 @@
+/* CSS declarations go here */
+
+body {
+  background-image: url('http://fc00.deviantart.net/fs26/f/2008/072/2/b/_Strawberry_Tile_Background__by_Phoenix_Pinion.png');
+  background-repeat: repeat;
+  padding: 20px;
+}
+
+.signin {
+  float: right;
+}

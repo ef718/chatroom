@@ -1,0 +1,27 @@
+<head>
+  <title>Meteor App</title>
+</head>
+
+<body>
+  <div class="page">
+    <div class="signin">
+      {{> loginButtons align="right"}}
+    </div>
+    <div class="main" role="main">
+      {{> hello}}
+    </div>
+
+    <form name="input" action="demo_form_action.asp" method="get">
+      Enter message: <input type="text" name="message" id="message">
+      <input type="submit" value="Submit" id="submit">
+    </form>
+    <div class="chat"></div>
+
+  </div>
+</body>
+
+<template name="hello">
+  <h1>Meteor Chatroom</h1>
+  {{greeting}}
+<!--   <input type="button" value="Click" /> -->
+</template>
